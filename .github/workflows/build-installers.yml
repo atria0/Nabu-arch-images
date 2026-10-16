@@ -83,7 +83,7 @@ jobs:
         run: |
           sudo arch-chroot ./mountpoint bash - <<'EOF'
           cat > /etc/pacman.d/mirrorlist <<'EOM'
-          Server = http://ca.us.mirror.archlinuxarm.org/$arch/$repo
+          Server = https://mirrors.tuna.tsinghua.edu.cn/archlinuxarm/$arch/$repo
           Server = http://nj.us.mirror.archlinuxarm.org/$arch/$repo
           EOM
           EOF
@@ -306,8 +306,8 @@ jobs:
         run: |
           sudo arch-chroot ./mountpoint bash - <<'EOF'
           groupadd -f -r i2c
-          useradd -m -G wheel,audio,video,storage,optical,i2c -s /bin/bash user
-          echo "user:123456" | chpasswd
+          useradd -m -G wheel,audio,video,storage,optical,i2c -s /bin/bash aemeath
+          echo "aemeath:123456" | chpasswd
           EOF
 
       - name: Clear pacman cache
