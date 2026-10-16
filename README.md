@@ -1,3 +1,8 @@
+#Important This repository is a fork from https://github.com/Kumar-Jy/Nabu-arch-images
+You may face unexpected problems in this repo.
+
+
+
 # Arch Linux ARM Installer for Xiaomi Pad 5 (nabu)
 ![Arch Linux Arm on the Xiaomi Pad 5 (nabu)](nabu_alarm.png)
 
