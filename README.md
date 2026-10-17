@@ -1,13 +1,7 @@
-#Important This repository is a fork from https://github.com/Kumar-Jy/Nabu-arch-images
+# Important This repository is a fork from https://github.com/Kumar-Jy/Nabu-arch-images
 You may face unexpected problems in this repo.
 
-
-
-
-
-
-
-
+## Because of an incomplete update of plasma6.8.0 plasma didnt work at all in the release so DO NOT USE THIS REPO!!!!
 
 
 
